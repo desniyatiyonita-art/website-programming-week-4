@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi Daerah Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-content">
+
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true"></span>
+        <h1>Informasi Daerah Saya</h1>
+      </div>
+
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="#profil">Profil</a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#potensi">Potensi</a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- LAYOUT -->
+  <div class="page-layout">
+
+    <!-- KONTEN UTAMA -->
+    <main>
+
+      <!-- PROFIL DAERAH -->
+      <article id="profil" class="card profile-card">
+
+        <div class="profile-text">
+
+          <span class="section-icon" aria-hidden="true"></span>
+
+          <h2>Profil Daerah</h2>
+
+          <p>
+            Saya berasal dari Colol, Desa Colol,
+            Kecamatan Lamba Leda Timur,
+            Kabupaten Manggarai Timur,
+            Provinsi Nusa Tenggara Timur.
+          </p>
+
+          <p>
+            Colol merupakan daerah yang memiliki
+            lingkungan yang indah serta dikenal
+            dengan potensi pertanian dan perkebunan,
+            terutama perkebunan kopi.
+          </p>
+
+        </div>
+
+        <!-- IMG 1: KOPI COLOL -->
+        <div class="profile-image">
+          <img
+            src="kopi-colol.jpeg"
+            alt="Pemandangan perkebunan kopi daerah Colol">
+        </div>
+
+      </article>
+
+
+      <!-- POTENSI DAERAH -->
+      <section id="potensi" class="card potential-card">
+
+        <div class="section-heading">
+
+          <span
+            class="section-icon green"
+            aria-hidden="true">
+          </span>
+
+          <div>
+            <h2>Potensi Daerah</h2>
+
+            <p class="section-subtitle">
+              Potensi pertanian, perkebunan,
+              dan masyarakat Colol
+            </p>
+          </div>
+
+        </div>
+
+
+        <p class="potential-description">
+          Desa Colol memiliki potensi di bidang
+          pertanian dan perkebunan, khususnya
+          perkebunan kopi. Masyarakat setempat
+          banyak melakukan kegiatan pertanian
+          untuk memenuhi kebutuhan sehari-hari
+          dan mengembangkan hasil daerah.
+        </p>
+
+
+        <!-- DAFTAR POTENSI -->
+        <div class="card-list">
+
+          <!-- IMG 2: AIR TERJUN -->
+          <article class="potential-item">
+
+            <div class="item-image-wrapper">
+              <img
+                src="air terjun flora fauna.jpeg"
+                alt="Air terjun dan keindahan alam Colol"
+                class="potential-img">
+            </div>
+
+            <div class="item-content">
+              <h3>Wisata Alam</h3>
+              <p>Keindahan alam Colol</p>
+            </div>
+
+          </article>
+
+
+          <!-- PERKEBUNAN KOPI -->
+          <!-- Tidak menggunakan gambar tambahan -->
+          <article class="potential-item card--featured">
+
+            <span class="badge">
+              Unggulan
+            </span>
+
+            <div class="item-content">
+
+              <h3>Perkebunan Kopi Colol</h3>
+
+              <p>
+                Komoditas unggulan daerah
+              </p>
+
+              <p>
+                Kopi merupakan salah satu hasil
+                perkebunan yang menjadi potensi
+                utama masyarakat Colol.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- AKTIVITAS MASYARAKAT DAN PRODUK LOKAL -->
+        <article class="potential-item activity-card">
+
+          <div class="item-content">
+
+            <h3>
+              Aktivitas Masyarakat dan Produk Lokal Colol
+            </h3>
+
+            <p>
+              Masyarakat Colol aktif melakukan
+              kegiatan pertanian dan perkebunan
+              sebagai mata pencaharian sehari-hari.
+            </p>
+
+            <p>
+              Salah satu kegiatan utama masyarakat
+              adalah mengelola perkebunan kopi mulai
+              dari menanam, merawat, memanen, hingga
+              mengolah hasil kopi.
+            </p>
+
+            <p>
+              Produk lokal daerah Colol berasal dari
+              hasil pertanian dan perkebunan masyarakat,
+              terutama kopi yang menjadi salah satu
+              komoditas unggulan daerah.
+            </p>
+
+          </div>
+
+        </article>
+
+      </section>
+
+
+      <!-- FORM KONTAK -->
+      <section id="kontak" class="card contact-card">
+
+        <div class="section-heading">
+
+          <span
+            class="section-icon blue"
+            aria-hidden="true">
+          </span>
+
+          <div>
+
+            <h2>Kirim Pesan</h2>
+
+            <p class="section-subtitle">
+              Silakan isi formulir di bawah ini
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <form action="#" method="post">
+
+          <label for="nama">
+            Nama lengkap
+          </label>
+
+          <input
+            id="nama"
+            name="nama"
+            type="text"
+            autocomplete="name"
+            placeholder="Masukkan nama lengkap Anda"
+            required>
+
+
+          <label for="email">
+            Alamat email
+          </label>
+
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            placeholder="contoh@email.com"
+            required>
+
+
+          <label for="pesan">
+            Pesan
+          </label>
+
+          <textarea
+            id="pesan"
+            name="pesan"
+            minlength="10"
+            placeholder="Tulis pesan Anda di sini..."
+            required></textarea>
+
+
+          <button type="submit">
+            Kirim pesan
+          </button>
+
+        </form>
+
+      </section>
+
+    </main>
+
+
+    <!-- INFORMASI TAMBAHAN -->
+    <aside aria-labelledby="info-tambahan">
+
+      <h2 id="info-tambahan">
+        Informasi Tambahan
+      </h2>
+
+      <div class="additional-info">
+
+        <p>
+          Colol di Kabupaten Manggarai Timur,
+          Nusa Tenggara Timur, adalah desa wisata
+          terkenal yang menjadi pusat penghasil kopi
+          terbaik dan terbesar di Pulau Flores.
+        </p>
+
+
+        <h3>
+          Perkebunan Kopi Colol
+        </h3>
+
+        <p>
+          Perkebunan kopi merupakan salah satu
+          potensi utama daerah Colol. Kopi menjadi
+          salah satu hasil perkebunan yang penting
+          bagi masyarakat setempat.
+        </p>
+
+
+        <h3>
+          Aktivitas Masyarakat
+        </h3>
+
+        <p>
+          Masyarakat Colol melakukan berbagai
+          kegiatan pertanian dan perkebunan.
+          Kegiatan tersebut dilakukan untuk
+          memenuhi kebutuhan sehari-hari dan
+          meningkatkan pendapatan masyarakat.
+        </p>
+
+
+        <h3>
+          Produk Lokal
+        </h3>
+
+        <p>
+          Produk lokal daerah Colol berasal dari
+          hasil pertanian dan perkebunan masyarakat,
+          terutama kopi yang menjadi salah satu
+          komoditas unggulan daerah.
+        </p>
+
+      </div>
+
+    </aside>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-content">
+
+      <span
+        class="footer-icon"
+        aria-hidden="true">
+      </span>
+
+      <p>
+        Dibuat untuk Website Programming.
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
